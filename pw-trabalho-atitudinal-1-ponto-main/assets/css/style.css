@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.img-home{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.foto-perfil{
+    width: 20px;
+    height: 20px;
+    
+}
+#imagem-home{
+    float: left;
+}
+#home-imagem{
+    float: right;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0 0 0 20vh;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .img-home{
+        width: 40px;
+        height: 35px;
+        cursor: pointer;
+    }
+    
+    .foto-perfil{
+        width: 40px;
+        height: 40px;
+        
+    }
+    #imagem-home{
+        float: center;
+    }
+    #home-imagem{
+        float: center;
+    }
+    #karen{
+    
+    margin: 30%;
+
+    }
+    #sarina{
+        
+        margin: 30%  
+    }
+    .flor{
+        height: 350px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        padding: 10 5 10 20vh;
+    }
+    
+  }
